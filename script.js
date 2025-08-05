@@ -1,5 +1,5 @@
-const apikey = "faba193d51b440fad1be8131c3babf58";
-const apikey2 = "8a60752d9a4b4ef2b0f153556253007";
+const apikey = "";
+const apikey2 = "";
 const locationelement = document.getElementById("location-name");
 const dateelement = document.getElementById("currentdate");
 const weatherimageelement = document.getElementById("Weather-image");
