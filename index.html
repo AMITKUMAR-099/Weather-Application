@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="search">
+            <input class="input-search" id="cityinput" type="text" placeholder="Search City">
+        </div>
+        <span class="search-button">
+            <img id="search-bt" src="weather icons/icons8-search-48.png" alt="">
+        </span>
+        <div class="location">
+            <div id="location-icon">
+                <img src="weather icons/icons8-location-32.png" alt="">
+            </div>
+            <div id="location-details">
+                <p id="location-name"></p>
+                <p id="currentdate"></p>
+            </div>
+        </div>
+        <div class="Weather-and-Temperature">
+            <div class="weather">
+                <img id="Weather-image" src="" alt="">
+                <p id="weather-description" style="text-align: center;"></p>
+            </div>
+            <div class="temperature">
+                <p id="temp">--</p>
+                <p id="feel"></p>
+            </div>
+        </div>
+        <div class="sensors">
+            <div class="sensors-block">
+                <img src="weather icons/icons8-humidity-sensor-48.png" alt="">
+                <div class="info">
+                    <p>Humidity</p>
+                    <p id="humidity">--</p>
+                </div>
+            </div>
+            <div class="sensors-block">
+                <img src="weather icons/air-quality2.png" alt="">
+                <div class="info">
+                    <p>Air Quality Index</p>
+                    <p id="aqi">--</p>
+                    <div class="aqi-info">
+                        <div id="aqi-indicator"></div>
+                        <div id="aqi-label"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="sensors-block">
+                <img src="weather icons/wind3.png" alt="">
+                <div class="info">
+                    <p >Wind Speed</p>
+                    <p id="wind">--</p>
+                </div>
+            </div>
+            <div class="sensors-block">
+                <img src="weather icons/uv1.png" alt="">
+                <div class="info">
+                    <p>UV Index</p>
+                    <p id="uvindex">--</p>
+                </div>
+            </div>
+            <div class="sensors-block">
+                <img src="weather icons/sunrise.png" alt="">
+                <div class="info">
+                    <p>Sunrise</p>
+                    <p id="sunrise">--</p>
+                </div>
+            </div>
+            <div class="sensors-block">
+                <img src="weather icons/sunset.png" alt="">
+                <div class="info">
+                    <p>Sunset</p>
+                    <p id="sunset">--</p>
+                </div>
+            </div>
+        </div>
+        <div class="predictions">
+            <div class="prediction-boxes" id="pb1">
+                
+            </div>
+            <div class="prediction-boxes">
+               
+            </div>
+            <div class="prediction-boxes">
+                
+            </div>
+            <div class="prediction-boxes">
+             
+            </div>
+            <div class="prediction-boxes">
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
